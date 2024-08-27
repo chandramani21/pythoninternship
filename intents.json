@@ -1,0 +1,79 @@
+{
+    "intents":[
+       {
+        "tag": "greeting",
+        "patterns":[
+            "Hi",
+            "hey",
+            "how are you",
+            "is anyone there?",
+            "Hello",
+            "Good day"
+
+        ],
+        "responses": [
+            "Hey :-)",
+            "Hello, thanks for visiting",
+            "Hi there, what can I do for you?",
+            "Hi there, how can i help?"
+        ]
+       },
+       {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses":[
+            "see you later, thanks for visiting",
+            "have a nice day",
+            "Bye! come back again soon."
+
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you ", "That's helpful", " Thank's a lot!"],
+        "responses":[ "Happy to help!", " Any time!", "my pleasure"]
+    },
+    {
+        "tag": "items",
+        "patterns": [
+            "which items do you have?",
+            "what kinds of items are there ?",
+            "what do you sell?"
+        ],
+        "responses":[
+            "we sell coffee and tea",
+            "we have coffee and tea"
+        ]        
+    },
+    {
+        "tag": "payments",
+        "patterns": [
+            "Do you take credit card?",
+            "Do you accept Mastercard?",
+            "can i pay with paypal?",
+            "Are you cash only"
+        ],
+        "responses":[
+            "We accept VISA, Mastercard  and PayPal",
+            "We accept most major credit cards, and paypal"
+        ]
+    },
+    {
+        "tag": "funny",
+        "patterns": [
+            "tell me a joke!",
+            "tell me something funny!",
+            "Do you know a joke?"
+
+        ],
+        "responses":[
+            "Why did the hipster burn his mouth? he drank the coffee before it was cool.",
+            " what did the buffalo say when his son left for collage ? bison."
+
+        ]
+    }
+    
+       
+        
+    ]
+}
